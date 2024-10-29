@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 16px 32px;
+  text-align: center;
+  background-color: #00ffff;
+  transition: background-color 0.3s ease-in-out;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #00ffde;
+}
